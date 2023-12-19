@@ -24,7 +24,7 @@ menuIcon.addEventListener('click', function () {
 
 navLinks.forEach(function (link) {
 link.addEventListener('click', function () {
-navList.classList.remove('active');
+navList.classList.remove('click');
 });
 });
 });
